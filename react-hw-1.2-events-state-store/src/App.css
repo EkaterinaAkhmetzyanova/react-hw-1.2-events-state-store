@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
+
+* {
+  box-sizing: border-box;
+}
+
+.iconSwitch {
+  margin: 15px;
+}
+
+.iconSwitch-btn {
+  cursor: pointer;
+}
+
+.cardsView {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.shopCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+  padding: 15px;
+  background-size: 300px 300px;
+}
+
+.shopCard-name {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.shopCard-color {
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
+.shopCard-box {
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+  margin-top: 175px;
+  padding: 10px;
+}
+
+.shopCard-price {
+  color: red;
+}
+
+.shopCard-btn {
+  padding: 8px;
+  border: solid 1px red;
+  border-radius: 5px;
+  color: red;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.listView {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+}
+
+.shopItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%;
+  background-color: rgb(228, 225, 225);
+}
+
+.img {
+  width: 250px;
+}
+
+.shopItem-name {
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+.shopItem-color {
+  font-size: 14px;
+  text-transform: lowercase;
+}
+
+.shopItem-price {
+  color: red;
+}
+
+.shopItem-btn {
+  padding: 8px;
+  border: solid 1px red;
+  border-radius: 5px;
+  color: red;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
